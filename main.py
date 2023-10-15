@@ -15,7 +15,8 @@ def create_github_labels(repo):
         {"name": "performance", "color": "800080",
             "description": "アプリケーションの速度や効率に影響を与える"},
         {"name": "critical", "color": "8B0000", "description": "即時対応が必要な重大な問題"},
-        {"name": "minor", "color": "808080", "description": "重要度が低く、時間があるときに対応する問題"}
+        {"name": "minor", "color": "808080", "description": "重要度が低く、時間があるときに対応する問題"},
+        {"name": "operation", "color": "CA50A0", "description": "運用に関する設定、機能"}
     ]
 
     for label in labels_to_add:
